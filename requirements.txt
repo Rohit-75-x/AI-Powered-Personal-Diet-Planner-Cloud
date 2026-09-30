@@ -1,0 +1,11 @@
+# Core Requirements for AI-Powered Personal Diet Planner with Cloud Storage
+# Note: The application is designed to run with zero mandatory dependencies on standard Python,
+# but the packages below enable production ASGI serving, PyJWT acceleration, and test runners.
+
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pyjwt>=2.8.0
+python-multipart>=0.0.9
+requests>=2.31.0
+pytest>=8.0.0
+pydantic>=2.6.0
